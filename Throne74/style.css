@@ -1,0 +1,148 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chat {
+    
+}
+
+.hng {
+    padding-right: 300px;
+}
+.opt {
+    padding-right: 70px;
+}
+.btn {
+    background-color: skyblue;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    height: 80%;
+    align-items: center;
+    
+    
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url('./images/banner.jpeg') no-repeat center center/cover;
+    padding: 50% auto;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 100px 100px ;
+    letter-spacing: 10px;
+
+}
+h1 {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 90px;
+}    
+
+p {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 90px;
+    
+}
+
+.bar {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+.btn2 {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(250, 240, 240);
+    color: red;
+    border: 0;
+    border-radius: 20px;
+    padding-right: 50px;   
+}
+
+.p1, .p2 {
+    color: black;
+}
+
+.footer ul li {
+    display: flex;
+}
+
+.btn3 {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(250, 240, 240) ;
+    color: black;
+    border: 0;
+    border-radius: 20px;
+
+}
+
+.h2 {
+    font-size: 5px;
+}
+
+.fas.fa-search {
+    color: red;
+}
+
+.btn3, .btn2, .p1, .p2, h4 {
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.btn2 {
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-items: left;
+    
+}
+
+.btn2, .p1 {
+    margin-left: 30px;
+}
+
+.btn2, .fas.fa-chevron-down {
+    margin-left: 40px;
+    
+}
+
+.btn3, .fas.fa-search {
+    margin-right: 30px;
+    padding-right: 140px;
+}
+
+.btn3 {
+    margin-left: 100px;
+}
+
+.btn2 {
+    margin-right: 300px;
+}
+
