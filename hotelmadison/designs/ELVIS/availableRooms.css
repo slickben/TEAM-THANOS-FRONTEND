@@ -1,0 +1,377 @@
+
+.container{
+    box-sizing: border-box;
+    display: grid;
+}
+h1{
+    position: absolute;
+    top:1240px;
+    left: 520px;
+    text-align:center;
+    font-family: Giroy;
+    font-style: normal;
+    padding: 0;
+    padding-bottom: 20px;
+    /*border-bottom: 5px solid #FF7649;*/
+    
+}
+hr{
+    width: 150px;
+    color: #FF7649;
+    position: absolute;
+    top: 1307px;
+    left: 560;
+}
+.main{
+    position: absolute;
+    top: 1331px;
+    display: grid;
+    grid-template-columns: repeat(3,356px);
+    grid-auto-rows: minmax(270px,auto);
+    grid-gap: 40px;
+     padding: 4rem;
+    padding-top: 0;
+    margin: auto;
+}
+.royale{
+    position: absolute;
+width: 177px;
+height: 21px;
+left: 70px;
+top: 270px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+
+/* Hotel dark */
+
+color: #1F212D;
+}
+.pent{
+     position: absolute;
+width: 177px;
+height: 21px;
+left: 460px;
+top: 270px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+
+}
+.casala{
+     position: absolute;
+width: 177px;
+height: 21px;
+left: 860px;
+top: 270px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+
+}
+
+.castle{
+    position: absolute;
+width: 115px;
+height: 21px;
+left: 70px;
+top: 350px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
+.reel{
+     position: absolute;
+width: 115px;
+height: 21px;
+left: 460px;
+top: 350;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;  
+}
+.casa{
+         position: absolute;
+width: 115px;
+height: 21px;
+left: 860px;
+top: 350;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;  
+}
+
+
+
+.minor{
+    display: grid;
+    grid-template-columns: repeat(3,356px);
+    grid-auto-rows: minmax(270px,auto);
+    grid-gap: 40px;
+    padding: 4rem;
+    position: absolute;
+    top: 1704px;
+    margin: auto;
+}
+
+.rectangle{
+    max-width: "100%";
+}
+
+.rectangle-2{
+/*width: 365px;
+position: absolute;
+width: 456px;
+height: 304px;
+left: 75px;
+top: 1331px;    
+    */
+background: #C4C4C4;
+border-radius: 20px;
+
+}
+.rectangle-3{
+/*width: 365px;*/
+/*height: 270px;*/
+/*left: 537px;
+top: 1348px;
+position: absolute;    
+    */
+
+
+
+background: #C4C4C4;
+border-radius: 20px;
+ }
+
+
+ .rectangle-4{
+    /* Rectangle 3 */
+  /* width: 365px;*/
+  /* height: 270px;*/
+   /*left: 537px;
+     top: 1348px;
+   position:absolute;
+     */
+   
+  
+   background: #C4C4C4;
+   border-radius: 20px;
+    }
+   
+   
+   .rectangle-54{
+        /* Rectangle 3 */
+       
+       /*width: 365px;*/
+       /*height: 270px;*/
+       /*left: 537px;
+       top: 1348px;
+       position: absolute;
+       */
+       
+       
+       background: #C4C4C4;
+       border-radius: 20px;
+        }
+
+
+        .rectangle-55{
+            /*width: 365px;*/
+          /*  height: 270px;
+            left: 537px;
+            top: 1776px;
+            position: absolute;
+            */
+            background: #C4C4C4;
+            border-radius: 20px;
+            }
+
+
+
+            .rectangle-56{
+                /*width: 365px;*/
+               /* height: 270px;
+                left: 955px;
+                 top: 1776px;
+                position: absolute;
+                */
+                background: #C4C4C4;
+                border-radius: 20px;
+                
+                }
+
+
+.image-2{
+ background: url(image/rectangle2.png);   
+}
+.image-3 {
+   background: url(image/rectangle3.png); 
+}
+
+.image-4{
+     background: url(image/rectangle-4.png);
+}
+
+.image-5{
+    background: url(image/rectangle-54.png);
+}
+.image-6{
+     background: url(image/rectangle-55.png);
+}
+.image-7{
+    background: url(image/rectangle-56.png);
+}
+
+
+@media  (max-width:900px){
+    .main{
+    grid-template-columns: repeat(1,364px);
+    grid-auto-rows: minmax(274px,auto);
+        position: relative;
+        grid-gap: 6rem;
+}
+    .minor{
+            grid-template-columns:repeat(1,364px);
+    grid-auto-rows: minmax(274px,auto);
+        position:relative;
+         grid-gap: 6rem;
+        margin-top: -400px;
+        
+    }
+    
+    .royale{
+    position: relative;
+width: 177px;
+height: 21px;
+left: 120px;
+top: 270px;
+
+
+}
+.pent{
+     position: relative;
+width: 177px;
+height: 21px;
+left: 120px;
+top: 270px;
+
+
+}
+.casala{
+     position: relative;
+width: 177px;
+height: 21px;
+left: 120px;
+top: 270px;
+
+
+}
+
+.castle{
+    position: relative;
+width: 115px;
+height: 21px;
+left: 120px;
+top: 280px;
+
+
+}
+.reel{
+     position: relative;
+width: 115px;
+height: 21px;
+left: 120px;
+top: 280px;
+
+ 
+}
+.casa{
+         position: relative;
+width: 115px;
+height: 21px;
+left: 120px;
+top: 280px;
+
+  
+}
+    h1{
+    position: relative;
+    top:1300px;
+    left: 120px;
+        text-align: left;
+    
+    
+    /*border-bottom: 5px solid #FF7649;*/
+    
+}
+hr{
+    width: 100px;
+    color: #FF7649;
+    position: relative;
+    top: 1270px;
+    left: -5px;
+}
+    
+    
+}
+
+@media (max-width=500px){
+    .main{
+        grid-template-columns: repeat(1,100px);
+        margin: auto;
+    } 
+    .minor{
+        margin: auto;
+        grid-template-columns: repeat(1,100px);
+        margin: auto;
+    }
+    h1{
+    position: relative;
+    top:1300px;
+    left: 3500px;
+        text-align:center;
+       margin-left:8500px;
+    
+    /*border-bottom: 5px solid #FF7649;*/
+    
+}
+hr{
+    width: 100px;
+    color: #FF7649;
+    position: relative;
+    top: 1270px;
+    left: -5px;
+} 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
